@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(245, 242, 242);
+    
+    display: grid;
+    grid-template-columns: repeat(18,40px);
+    grid-template-rows: repeat(18,40px);
+    /*gap: 10px;*/
+}
+
+div.kafa1{
+    background-color: #FDDCB7;
+    grid-column: 7/13;
+    grid-row: 4/5;   
+}
+div.kafa2{
+    background-color: #FDDCB7;
+    grid-column: 6/14;
+    grid-row: 5/6;   
+}
+div.kafa3{
+    background-color: #FDDCB7;
+    grid-column: 5/15;
+    grid-row: 6/9;   
+}
+div.goz1{
+    background-color: #0d0700;
+    grid-column: 5/15;
+    grid-row: 9/10;   
+}
+div.goz2{
+    background-color: #0d0700;
+    grid-column: 5/9;
+    grid-row: 10/11;   
+}
+div.goz3{
+    background-color: #0d0700;
+    grid-column: 11/15;
+    grid-row: 10/11;   
+}
+div.burun1{
+    background-color: #FDDCB7;
+    grid-column: 11/9;
+    grid-row: 10/11;   
+}
+div.burun2{
+    background-color: #FDDCB7;
+    grid-column: 5/15;
+    grid-row: 11/12;   
+}
+div.yanak1{
+    background-color: #FDDCB7;
+    grid-column: 5/8;
+    grid-row: 12/13;   
+}
+div.yanak2{
+    background-color: #FDDCB7;
+    grid-column: 15/12;
+    grid-row: 12/13;   
+}
+div.yanak3{
+    background-color: #FDDCB7;
+    grid-column: 6/8;
+    grid-row: 13/14;   
+}
+div.yanak4{
+    background-color: #FDDCB7;
+    grid-column: 14/12;
+    grid-row: 13/14;   
+}
+div.yanak5{
+    background-color: #FDDCB7;
+    grid-column: 7/8;
+    grid-row: 14/15;   
+}
+div.yanak6{
+    background-color: #FDDCB7;
+    grid-column: 13/12;
+    grid-row: 14/15;   
+}
+div.agiz{
+    background-color: #FDDCB7;
+    grid-column: 9/11;
+    grid-row: 13/15;   
+}
+div.sakal1{
+    background-color: #5e3405;
+    grid-column: 8/12;
+    grid-row: 15/16;   
+}
+div.sakal2{
+    background-color: #5e3405;
+    grid-column: 8/9;
+    grid-row: 12/16;   
+}
+div.sakal3{
+    background-color: #5e3405;
+    grid-column: 11/12;
+    grid-row: 12/16;   
+}
+div.biyik{
+    background-color: #5e3405;
+    grid-column: 8/11;
+    grid-row: 12/13;   
+}
