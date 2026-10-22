@@ -1,0 +1,31 @@
+body{
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    grid-template-rows: 1fr 7fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background-color: #d18282;
+}
+nav{
+    grid-area: nav;
+    background-color: #82d1d1;
+}
+main{
+    grid-area: main;
+    background-color: #82d182;
+}
+aside{
+    grid-area: aside;
+    background-color: #d1d182;
+}
+footer{
+    grid-area: footer;
+    background-color: #d182d1;
+}
