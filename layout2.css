@@ -1,0 +1,51 @@
+body{
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 2fr 4fr 1fr;
+    grid-template-areas: 
+        "header header header header header header header header header header header header"
+        "kutu1 kutu1 kutu1 kutu2 kutu2 kutu2 kutu3 kutu3 kutu3 kutu4 kutu4 kutu4"
+        "sol sol sol sol orta orta orta orta sag sag sag sag"
+        "footer footer footer footer footer footer footer footer footer footer footer footer"
+    
+    
+    ;
+    gap: 10px;  
+}
+header{
+    grid-area: header;
+    background-color: #d06c15;
+}
+.kutu1{
+    grid-area: kutu1;
+    background-color: #ff0000;
+}
+.kutu2{
+    grid-area: kutu2;
+    background-color: #00ff00;
+}
+.kutu3{
+    grid-area: kutu3;
+    background-color: #0000ff;
+}
+.kutu4{
+    grid-area: kutu4;
+    background-color: #ffff00;
+}
+.sol{
+    grid-area: sol;
+    background-color: #ff00ff;
+}
+.orta{
+    grid-area: orta;
+    background-color: #00ffff;
+}
+.sag{
+    grid-area: sag;
+    background-color: #378037;
+}
+footer{
+    grid-area: footer;
+    background-color: #873737;
+}
